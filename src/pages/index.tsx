@@ -1,5 +1,5 @@
 // Formas de consumir API
-// Tradicional SPA - Implica no Crowler de busca para indexação do site
+// Tradicional SPA - Implica no Crawler  de busca para indexação do site
 // useEffect(() => {
 //   fetch('http://localhost:3333/episodes')
 //   .then(response => response.json())
