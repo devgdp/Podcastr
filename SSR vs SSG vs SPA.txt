@@ -1,0 +1,25 @@
+// Formas de consumir API
+// Tradicional SPA - Implica no Crawler  de busca para indexação do site
+// useEffect(() => {
+//   fetch('http://localhost:3333/episodes')
+//   .then(response => response.json())
+//   .then(data => console.log(data))
+// })
+
+// SSR 
+// export async function getServerSideProps(){
+//     const response = await fetch('http://localhost:3333/episodes')
+//     const data = await response.json()
+
+//     return { 
+//       props: {
+//         episodes: data,
+        
+//       }
+//     }
+// }
+    
+
+// SSG
+// Método Escolhido abaixo, criando uma parte estática da pagina usado quando a pagina nao muda constantemente, atualizando em um intervalo especifico
+
